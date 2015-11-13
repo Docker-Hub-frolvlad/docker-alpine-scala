@@ -1,7 +1,7 @@
 FROM frolvlad/alpine-oraclejdk8:slim
 
 ENV SCALA_VERSION=2.12.0-M3 \
-    SCALA_HOME=/usr/share/scala/
+    SCALA_HOME=/usr/share/scala
 
 RUN apk add --update bash && \
     cd /tmp && \
