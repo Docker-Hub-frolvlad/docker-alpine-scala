@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-oraclejdk8:slim
 
-ENV SCALA_VERSION=2.12.0-M4 \
+ENV SCALA_VERSION=2.11.8 \
     SCALA_HOME=/usr/share/scala
 
 # NOTE: bash is used by scala/scalac scripts, and it cannot be easily replaced with ash.
